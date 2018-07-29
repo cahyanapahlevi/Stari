@@ -1,0 +1,130 @@
+header{
+	height: 100px;
+	width: 100%;
+	background-color: rgba(214, 48, 64, 0.7) !important;
+	background-size: cover;
+}
+
+.background{
+	background: url("gambar/3tri.jpg");
+	background-size: cover;
+	height: 600px;
+}
+
+nav{
+	background-color: transparent;
+	height: 100px;
+}
+
+nav ul li a{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: black;
+}
+
+nav ul li a.glow:hover{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*border-radius: 30px;*/
+	background-color: rgba(255, 89, 128, 0.4);
+}
+
+nav ul li.rounded-active.active{
+	border-radius: 30px;
+	background-color: grey;
+}
+
+nav ul li.active {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px; 
+}
+
+nav ul li.geserkanan {
+	margin-right: 40px !important; 
+}
+
+ul#dropdown1{
+	margin-left:0px !important;
+}
+
+ul#dropdown2{
+	margin-left:0px !important;
+}
+
+.custom-logo{
+background-image: url("gambar/logos.png");
+width: 70px;
+height: 80px;
+background-size: cover;
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.tulisanlogo{
+	float: left;
+	padding-left: 120px;
+	padding-top: 15px;
+	color: black;
+	font-family: 'Sacramento', cursive;
+	font-size: 50px !important;
+}
+
+.kotak{
+	padding: 50px;
+padding-top: 10px;
+margin-top: 250px !important;
+margin-bottom: 250px !important; 
+width: 900px;
+height: 60px;
+background-color: transparent;
+}
+
+.kotak h5{
+	background-color: rgba(255, 89, 128, 0.4);
+	margin-top: 250px !important;
+
+	font-size: 50px;
+	font-family: 'Satisfy';
+}
+
+/*HALAMAN JOIN US*/
+
+.kotak-join{
+padding-top: 10px;
+margin-top: 100px;
+border-radius: 10px;
+width: 900px;
+height: 120px;
+background-color: rgba(255, 89, 128, 0.4);
+}
+
+.kotak-join h5{
+	font-size: 30px;
+	font-family: 'Montserrat';
+}
+
+/*HALAMAN LOGIN*/
+
+.login{
+	padding-top: 30px;
+	height: 425px;
+	background-color: rgba(177, 195, 219, 0.8);
+}
+
+.login-custom::-webkit-input-placeholder{
+	color: white;
+}
+
+
+/*HALAMAN SCHEDULE*/
+
+.tabel table{
+	width: 900px;
+}
